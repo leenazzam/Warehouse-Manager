@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:warehouse_management/core/appcolors.dart';
-import 'package:warehouse_management/core/widgets/appbar.dart';
 import 'package:warehouse_management/features/attendance_screen.dart';
 import 'package:warehouse_management/features/emp_screen.dart';
 import 'package:warehouse_management/features/products_screen.dart';

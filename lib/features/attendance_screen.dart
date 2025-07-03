@@ -8,8 +8,8 @@ class AttendanceScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
-          children: [Text("Attendance Page")],
           mainAxisAlignment: MainAxisAlignment.center,
+          children: [Text("Attendance Page")],
         ),
       ),
     );

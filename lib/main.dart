@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:warehouse_management/core/appcolors.dart';
 import 'package:warehouse_management/features/nav.dart';
-import 'package:warehouse_management/features/products_screen.dart';
 
 void main() {
   runApp(const MainApp());

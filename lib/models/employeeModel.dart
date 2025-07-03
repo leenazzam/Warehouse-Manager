@@ -20,7 +20,7 @@ class EmployeeModel {
   });
 }
 
-final List<EmployeeModel> dumyEmployees = [
+final List<EmployeeModel> dummyEmployees = [
   EmployeeModel(
     name: 'Ahmed Ali',
     age: 30,

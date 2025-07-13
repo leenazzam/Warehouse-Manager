@@ -1,12 +1,14 @@
+import 'package:flutter/material.dart';
+
 class ProductsModel {
-  final int id;
-  final String name;
-  final double price;
-  final int quantity;
-  final String description;
-  final bool isFragile;
-  final DateTime? expiryDate;
-  final String imageUrl;
+  int id;
+  String name;
+  double price;
+  int quantity;
+  String description;
+  bool isFragile;
+  DateTime? expiryDate;
+  String imageUrl;
 
   ProductsModel({
     required this.id,
@@ -15,7 +17,7 @@ class ProductsModel {
     required this.quantity,
     required this.description,
     required this.isFragile,
-    this.expiryDate,
+    required this.expiryDate,
     required this.imageUrl,
   });
 }

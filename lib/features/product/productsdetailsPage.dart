@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:warehouse_management/core/appcolors.dart';
 import 'package:warehouse_management/core/fonts.dart';
@@ -21,7 +23,10 @@ class Productsdetails extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 150,
-                backgroundImage: NetworkImage(product.imageUrl),
+                backgroundImage:
+                    product.imageUrl.startsWith('http')
+                        ? NetworkImage(product.imageUrl)
+                        : FileImage(File(product.imageUrl)),
               ),
               SizedBox(height: 10),
               Column(

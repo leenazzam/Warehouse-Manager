@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:warehouse_management/core/widgets/details.dart';
 import 'package:warehouse_management/models/employeeModel.dart';
@@ -19,7 +21,10 @@ class Empdetails extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 150,
-                backgroundImage: NetworkImage(emp.imageUrl),
+                backgroundImage:
+                    emp.imageUrl.startsWith('http')
+                        ? NetworkImage(emp.imageUrl)
+                        : FileImage(File(emp.imageUrl)),
               ),
               SizedBox(height: 10),
               Column(
@@ -38,14 +43,8 @@ class Empdetails extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Details(
-                        title: 'Start time',
-                        type: "${emp.startTime!.hour}:${emp.startTime!.minute}",
-                      ),
-                      Details(
-                        title: 'End time',
-                        type: "${emp.startTime!.hour}:${emp.startTime!.minute}",
-                      ),
+                      Details(title: 'Start time', type: "${emp.startTime}"),
+                      Details(title: 'End time', type: "${emp.endTime}"),
                     ],
                   ),
                 ],

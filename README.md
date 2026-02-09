@@ -32,9 +32,9 @@ This project focuses on interface design only (no backend or database).
 ---
 
 ## 📸 Screenshots
-<img width="1080" height="2400" alt="Screenshot_1770666346" src="https://github.com/user-attachments/assets/470dda00-6b03-43ea-be65-e78f97e6c892" />
-<img width="200" height="200" alt="Screenshot_1770666354" src="https://github.com/user-attachments/assets/e296dff1-339e-486d-a052-ab4ec86d26b9" />
+<img width="1000" height="2000" alt="Screenshot_1770666346" src="https://github.com/user-attachments/assets/470dda00-6b03-43ea-be65-e78f97e6c892" />
+<img width="1000" height="2000" alt="Screenshot_1770666354" src="https://github.com/user-attachments/assets/e296dff1-339e-486d-a052-ab4ec86d26b9" />
 
-<img width="1080" height="2400" alt="Screenshot_1770666343" src="https://github.com/user-attachments/assets/068639ce-c6eb-43af-ab95-7a06337ae168" />
-<img width="1080" height="2400" alt="Screenshot_1770666361" src="https://github.com/user-attachments/assets/5147eb05-b410-4db4-9580-c6625d427a23" />
+<img width="1000" height="2000" alt="Screenshot_1770666343" src="https://github.com/user-attachments/assets/068639ce-c6eb-43af-ab95-7a06337ae168" />
+<img width="1000" height="2000" alt="Screenshot_1770666361" src="https://github.com/user-attachments/assets/5147eb05-b410-4db4-9580-c6625d427a23" />
 
